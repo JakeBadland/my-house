@@ -1,0 +1,1 @@
+<div class="message <? echo ($message->is_user)? 'tal': 'tar' ?>"><?=$message->text?></div><br/>

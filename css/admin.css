@@ -1,0 +1,281 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.login-form{
+    text-align: center;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.db{
+    display: block;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mt20{
+    margin-top: 40px;
+}
+.mb40{
+    margin-bottom: 40px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.input100{
+    width: 100%;
+}
+.h40{
+    height: 40px;
+}
+.p20{
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
+.ib{
+    display: inline-block;
+}
+.tal{
+    text-align: left;
+    background-color: #D1F2FF;
+}
+.tar{
+    text-align: right;
+    background-color: #CFFFEB;
+}
+.object-item{
+    height: 22px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.object-item:hover{
+    background-color: lightgrey;
+}
+.folder-item{
+    height: 22px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.folder-item:hover{
+    background-color: lightgrey;
+}
+.image-item img{
+    width: 10%;
+    height: auto;
+}
+.image-item{
+    margin: 2px;
+    padding: 6px;
+    width: 100%;
+    height: auto;
+}
+.delete-item{
+    cursor: pointer;
+}
+.image-container{
+    width: 15%;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cell{
+    cursor: pointer;
+    height: 32px;
+}
+.cell:hover{
+    background-color: lightgrey;
+}
+.delete-image{
+    cursor: pointer;
+}
+#modal_edit_folder .modal-dialog{
+    width: 85%;
+}
+#modal_edit_folder .modal-body{
+    height: 80vh;
+}
+#folders_images_list{
+    overflow-y: scroll;
+    max-height: 80%;
+}
+#folders_images_list .image-container{
+    width: 10%;
+    overflow: hidden;
+}
+
+.dn{
+    display: none;
+}
+.glyphicon{
+    cursor: pointer;
+}
+.index-object>label{
+    cursor: pointer;
+}
+.index-object:hover{
+    background-color: lightgrey;
+}
+#object_img{
+    width: 300px;
+    height: auto;
+}
+.contact-item input{
+    width: 100%;
+}
+.contact-item .glyphicon{
+    position: relative;
+    top: -20px;
+    right: 6px;
+}
+.admin_online{
+    position: relative;
+    top:12px;
+}
+.folder-order{
+    width: 25px;
+}
+#preview_img{
+    width: 200px;
+    height: auto;
+}
+
+.gallery-folder{
+    margin-left: 20px;
+}
+.glyphicon-pencil{
+    margin-right: 10px;
+}
+.folders-list{
+    display: none;
+}
+.object-title, .folder-title{
+    cursor: pointer;
+}
+.object-menu, .folder-menu{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px #979797 solid;
+    width: 170px;
+    padding: 3px 3px;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+.object-menu div span, .folder-menu div span{
+    margin-left: 15px;
+}
+.object-menu div, .folder-menu div{
+    border: 1px #f0f0f0 solid;
+}
+.object-menu div:hover, .folder-menu div:hover{
+    border: 1px #979797 solid;
+    border-radius: 3px;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.folders_images_list{
+    overflow: scroll;
+    height: 100%;
+}
+.selected-img{
+    border: 3px solid red;
+    opacity: 0.5;
+}
+.m-l1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.m-l2{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 8px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+.m-l2-inverse{
+    box-shadow: 0 -8px 16px 0 rgba(0, 0, 0, 0.5), 0 -8px 30px 0 rgba(0, 0, 0, 0.25);
+}
+.message{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+#modal_messages_info textarea{
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .mh{
+        display: none;
+    }
+    .glyphicon{
+        top: 3px;
+        margin-right: 20px;
+    }
+}
+.dialog{
+    padding: 10px;
+    overflow-y: scroll;
+    height: 45vh;
+}
+.play_sound{
+    margin-top: 13px;
+}
+
+.bg-red{
+    background-color: red;
+}
+#messages_container{
+    width: 100%;
+}
+.cell{
+    width: 100%;
+}
+.edit-index-object{
+    margin-bottom: 20px;
+}
+.edit-index-object #object_title{
+    width: 100%;
+}
+.edit-index-object #object_description{
+    width: 100%;
+    height: 120px;
+}
+
+.edit-index-object #full_object_description{
+    width: 100%;
+    height: 300px;
+}
+.delete-index-object{
+    margin-left: 20px;
+}
+.image-selected{
+    opacity: 0.3;
+}
+.edit-index-image{
+    width: 20%;
+}
+#footer{
+    margin-bottom: 20px;
+}
+.email-template{
+    height: 25vh;
+    width: 100%;
+}

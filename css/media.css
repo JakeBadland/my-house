@@ -1,0 +1,68 @@
+@media screen and (max-width: 990px) {
+    .thumbnail{
+        height: 500px;
+    }
+    .index-item-image{
+        margin: 14px auto !important;
+    }
+    .index-item-info{
+        text-align: center!important;
+    }
+    #cancel_comment{
+        margin-top: 10px;
+    }
+    #send_comment, #cancel_comment{
+        width: 100%;
+        margin: auto;
+    }
+    .comment-reply-form input,textarea{
+        width: 100%;
+    }
+    .go-up{
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .go-up .glyphicon{
+        font-size:  22px;
+        top: 3px;
+        left: -1px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .header-links{
+        display: none;
+    }
+    .media-menu{
+        display: block;
+        text-align: right;
+        right: 60px;
+    }
+    .help-hint{
+        width: 80%;
+        height: auto;
+    }
+
+    .main-phone-icon{
+        right: 20px;
+    }
+    .main-phone-hint{
+        padding: 7px;
+        width: 150px;
+        height: 33px;
+        font-size: 14px;
+        right: 19px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .full-screen, .random{
+        display: none!important;
+    }
+    .folder-container{
+        width: 100%!important;
+    }
+}

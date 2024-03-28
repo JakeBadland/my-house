@@ -312,4 +312,7 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+
+require_once (APPPATH . 'controllers' . DIRECTORY_SEPARATOR . 'BaseController.php');
+
 require_once BASEPATH.'core/CodeIgniter.php';
